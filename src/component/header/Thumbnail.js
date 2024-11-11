@@ -19,7 +19,7 @@ const  MyGallery = ()=> {
     const { height, width } = useWindowDimensions();
     const [images, setImages] = useState([])
     const isMobile = useBreakpoint(down("sm"));
-    console.log(width,isMobile, images,"asa")
+    console.log(width,isMobile, images,height,"asa")
     useEffect(()=>{
     console.log(width,isMobile,"nidzam")
 
